@@ -91,3 +91,9 @@ Mathematics and Statistical analysis: Statistics, Probability, Linear Algebra, a
 - **Soft Skills**: Soft Skills: Organisational Skills, Decision Making, Professional Skills, Effective Listening, Critical Thinking, Resiliency, Communication Foundations, Persuading Others, Teamwork Foundations
 - **Interests**: Teaching, Exploring Trends, Spirituality, Exploring Nature
 - Beside's programming, I enjoy watching video podcasts and spiritual videos.
+
+### 📞 Contact
+
+Feel free to connect with me through [LinkedIn](https://www.linkedin.com/in/challa-oo7/) or via email at [saikiranaus7399@gmail.com](mailto:saikiranaus7399@gmail.com).
+
+Thank you for visiting my profile! If you have any questions or opportunities, don't hesitate to reach out.

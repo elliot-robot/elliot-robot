@@ -20,7 +20,7 @@ https://simpleicons.org/
 <!-- [![HitCount](http://hits.dwyl.com/Ahmad-Sawalqeh/Ahmad-Sawalqeh.svg)](http://hits.dwyl.com/Ahmad-Sawalqeh/Ahmad-Sawalqeh) -->
 
 <h2 align='center'><samp><strong>Hi there 👋, I am Saikiran Challa</strong></samp></h2>
-<h3 align='center'><strong><a href="" target="_blank">Portfolio🌐</a></strong></h3>
+<h3 align='center'><strong><a href="https://saikiranchalla-portfolio.netlify.app/" target="_blank">Portfolio🌐</a></strong></h3>
 <p align='center'> Portfolio is Under Construction</p>
 <p align='center'>Software developer | Data Analyst | AI/ML Engineer | Experienced Java Developer</p>
 

@@ -21,7 +21,7 @@ https://simpleicons.org/
 
 <h2 align='center'><samp><strong>Hi there 👋, I am Saikiran Challa</strong></samp></h2>
 <h3 align='center'><strong><a href="https://saikiranchalla-portfolio.netlify.app/" target="_blank">Portfolio🌐</a></strong></h3>
-<p align='center'> Portfolio is Under Construction</p>
+
 <p align='center'>Software developer | Data Analyst | AI/ML Engineer | Experienced Java Developer</p>
 
 <p align='left'> Welcome to my GitHub space! I'm Saikiran Challa, an IT Professional driven by a passion for Computer Science and Data Science. Here, you'll explore my work, from personal projects to collaborations that reflect my journey in the tech world.</p>

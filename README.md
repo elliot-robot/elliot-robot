@@ -37,57 +37,57 @@ https://simpleicons.org/
 
 ### 💼 Work Experience
 
-#### Team Member | September 2023 — Present
-***Coles Group, Melbourne***
+#### Software Engineer | March 2023 — Present
+***Metro Trains, Melbourne***
 
-- Assisting customers with their queries by effectively handling different types of customers.
-- Working on registers and self-checkout, stocking, and inventory management.
-- Collaborating within a team-driven environment to ensure exceptional customer service and satisfaction.
-- Leveraging strong interpersonal skills to foster positive relationships with customers, colleagues, and stakeholders.
-- Continuously embracing Coles values of quality, value, and service, while contributing to a vibrant and inclusive workplace culture.
-
-#### Team Leader | March 2023 — Present
-***DNA Recruitment, Melbourne***
-
-- Provided customer service to passengers by creating a positive experience for them from start to finish of their journey.
-- Implemented bus replacement management strategies to deliver a safe and efficient experience to all stakeholders in a dynamic and fast-paced environment.
-- Made announcements on buses, effectively communicated with stakeholders, and recorded information on handheld devices.
-- Assisted special need passengers by arranging DDA taxis during station works and disruptions.
+-  Refactored core train-tracking platform into 15 independent microservices using Kafka as the sole integration backbone, eliminating
+direct service-to-service HTTP calls and sustaining <180 ms latency during major signaling disruptions.
+-  Architected and exposed high-performance RESTful APIs and gRPC endpoints for passenger apps and control-room systems serving
+1.8 M+ daily users.
+-  Produced Redis Streams real-time disruption alerting system, reducing passenger notification delay from 12 s to <800 ms.
+-  Reduced PostgreSQL load 65% via read replicas, materialized views and prepared-statement caching.
+-  Deployed Resilience4j circuit breakers + Istio policies to isolate faulty feeds in safety-critical environments.
+-  Automated zero-downtime deployments with Argo CD canary releases and Prometheus-driven rollbacks — 3+ releases/week, 100%
+success.
+-  Introduced end-to-end Replicated tracing with Open Telemetry + Jaeger across train-tracking microservices, cutting mean time to
+detect/diagnose incidents by ~55% and helping restore normal signaling operations within minutes during peak-time faults.
 
 
-#### Software Engineer | Aug 2021 - Jan 2023
+#### Software Development Engineer | Aug 2021 - Jan 2023
 ***IVY Comptech, Hyderabad***
 
-- 1.5 years of experience in Java development with expertise in software design, development, testing, and maintenance.
-- Designed and optimized messaging systems architecture to ensure high availability, scalability, and reliability of messaging infrastructure.
-- Worked on a US-based project representing the Single Account with Single Wallet of a user from different states. Previously, the user had to create a new account every time they migrated or moved from one state to another.
-- After this project, there was no need to create a new account for the user when moving from one state to another. Developed and implemented solutions using messaging services like Kafka, Terracotta, ActiveMQ, and ESB for high-volume, real-time message processing in distributed systems.
-- Created messaging services using open-source frameworks, including Spring Integration, Apache Camel, and Mule ESB, to support integration between disparate systems.
-- Troubleshot and resolved issues related to messaging services and systems, including message loss, latency, and throughput.
-- Worked with cross-functional teams to integrate messaging services with other applications and systems, including databases, APIs, and web applications.
-- Provided technical guidance and mentoring to junior developers on messaging services best practices and methodologies.
-- Stayed up-to-date with the latest technologies and trends in messaging services and recommended improvements and upgrades to existing messaging infrastructure.
-- Familiar with database design and development, including MongoDB.
+-  Crafted and delivered Java 17 / Spring Boot microservices exposing RESTful APIs and gRPC services handling 2 M+ financial
+transactions/day with <120 ms p95 latency and 99.999% availability across Australian jurisdictions.
+-  Rolled out Scaled Saga orchestration with compensating transactions, removing two-phase commits while maintaining 100%
+regulatory compliance.
+-  Consolidated DynamoDB into single-table design with sparse indexes — reduced monthly AWS costs >70%.
+-  Optimized virtual threads and lock-free collections — increased peak throughput from 8 k to 13 k RPS (+62%) on existing
+hardware.
+-  Assembled Envoy + Lua adaptive rate-limiting gateway protecting REST/gRPC endpoints during 10× traffic spikes.
+-  Rolled out Pact consumer-driven contract testing across 30+ microservices — reduced production integration defects by 90%.
+-  Spearheaded Prometheus + Grafana dashboards for 50+ microservices and batch pipelines.
+-  Implemented idempotent payment workflows with the outbox pattern, eliminating double charges and cutting reconciliation
+mismatches by >90%.
 
-#### Web Developer (Intern) | February 2021 — July 2021
+#### Software Engineering Intern | February 2021 — July 2021
 ***Cognizant Technological Solutions, Hyderabad***
 
-- Developed a web application, Pension Management System, using .NET Full Stack Development as part of this internship. My primary role focused on the Front-End development.
-- Troubleshot website problems, maintained, and updated websites according to specific needs.
-- Utilized HTML, CSS, and JavaScript to troubleshoot and upgrade websites.
+-  Developed high-throughput gRPC streaming services in Python for mining telemetry — sustained 400 k+ events/sec with full back-
+pressure control.
+-  Constructed and exposed RESTful APIs on top of Go Circulated scheduler for 100 k+ nightly batch jobs.
+-  Automated infrastructure with Terraform + Helm — cut new environment provisioning from 2 days to <30 minutes.
 
 ### 💡 Skills & Interests
 
 - **Technical Skills**:
-Programming languages: C, C++, java and Python
-Web development: HTML, JavaScript, CSS, Bootstrap, Node JS and React JS.
-Database: MySQL and Mongo DB.
-Messaging services : Apache kafka, AMQ, ESB, Terracotta.
-Computer systems and software: Windows 8/9/10, Mac OS, Atom, Notepad++, Putty, HyperTerminal,
-Apache SVN and MS Office.
-Data wrangling
-Machine learning
-Mathematics and Statistical analysis: Statistics, Probability, Linear Algebra, and Calculus.
+-  Languages: Java, Python, Go, SQL, Bash, C++
+-  Backend & Integration: Spring Boot, REST, gRPC, Web Flux/Reactive, Micrometer
+-  Messaging: Apache Kafka, RabbitMQ, AWS SQS/SNS
+-  Databases: PostgreSQL, Redis, DynamoDB, MongoDB, Elasticsearch
+-  Cloud & Containers: AWS (ECS, EKS, RDS, Lambda), Docker, Kubernetes, Helm
+-  DevOps & Delivery: Terraform, ArgoCD, Jenkins, GitHub Actions, Prometheus, Grafana, Open Telemetry
+-  Resilience & Testing: Resilience4j, Istio, contract testing, chaos engineering basics
+
 - **Soft Skills**: Soft Skills: Organisational Skills, Decision Making, Professional Skills, Effective Listening, Critical Thinking, Resiliency, Communication Foundations, Persuading Others, Teamwork Foundations
 - **Interests**: Teaching, Exploring Trends, Spirituality, Exploring Nature
 - Beside's programming, I enjoy watching video podcasts and spiritual videos.
